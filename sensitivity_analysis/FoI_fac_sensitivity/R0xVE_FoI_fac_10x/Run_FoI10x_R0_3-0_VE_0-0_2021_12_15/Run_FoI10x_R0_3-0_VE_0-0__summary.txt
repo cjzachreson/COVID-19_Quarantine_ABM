@@ -1,0 +1,33 @@
+simulation output summary: 
+
+             ******* 
+
+             exposure days per week (Travellers): 0.24871469352542197
+             exposure days per week (Travellers, unvaccinated): 0.0
+             exposure days per week (Travellers, vaccinated): 0.24871469352542197 
+
+             exposure days per week (Workers): 0.25431673598787985 
+
+             exposure days per week (Workers, unvaccinated): 0.0 
+
+             exposure days per week (Workers, vaccinated): 0.25431673598787985 
+
+             exposure days per infected arrival (Travellers): 0.5042518699695684 
+
+             exposure days per infected arrival (Workers): 0.5156096242996501 
+
+             infected arrivals per week (unvaccinated): 0.0 
+
+             infected arrivals per week (vaccinated): 0.4932350445035175 
+
+             detected cases per week (PCR test): 0.26702110497780085 
+
+             detected cases per week (symptom onset): 0.35705217677961465 
+
+             travellers discharged per week: 49.39933928583954 
+
+             infected travellers discharged per week: 0.06295020796363968 
+
+             secondary cases per week: 0.2471435685578616 
+
+             *******
