@@ -1,7 +1,7 @@
 
 date_tag = '2021_08_26'
 
-base_dirname = ['C:\Users\czachreson\Desktop\compositions_in_progress\Quarantine_modelling\model\julia_version_full\parameter_scan\fixed_worker_count\R0_x_VE_scan_H14_tf_1M\' date_tag '\']
+base_dirname = [pwd() '\R0_x_VE_scan_H14_tf_1M\' date_tag '\']
 
 %output_filename = [base_dirname, 'output_table_R0xVE_scan_H14_tf400k.csv']
            
