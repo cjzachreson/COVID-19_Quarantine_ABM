@@ -1,0 +1,20 @@
+these folders contain MATLAB code that is used for calibration of the model of infection transmission and test sensitivity over time, for use in the quarantine system simulations. 
+
+\R0_vs_beta
+
+the script quar_worker_model_R0_calib_2021_06_09.m is used for determining the scaling factor x in the function R0 = beta * x, which is used to convert a desired R0 into a force of infection determining transmission probabilities. This factor depends on various disease properties such as the incubation period distribution, and the shape of the infectiousenss profile as a function of time. If these parameters are altered, the system must be re-calibrated and the appropriate scaling factor updated in the quarantine simulation model (Quar_ABM_disease_no_R0.jl)
+
+
+\Secondary_case_dist
+
+the script quar_worker_model_SARplots_2021_08_12.m is used to examine secondary case distributions for different parameterisations, and also produces plots of TOST (time from onset of symptoms to transmission) and TOSD (time from onset of symptoms to detection). 
+
+
+\sensitivity_analysis_tinc
+
+the script quar_worker_model_R0_calib_2021_08_17.m computes TOST, TOSD, the R0 vs. beta scaling parameter, and secondary case distributions, for a model with a modified incubation period distribution. 
+ 
+
+
+
+

@@ -1,0 +1,16 @@
+These folders contain modified quarantine system simulation code that was used for sensitivity analysis: 
+
+\FoI_fac_sensitivity
+
+contains code for the analysis of sensitivity to the efficacy of nonpharmaceutical infection control within quarantine (this is reduced by a factor of 10). 
+
+\pA_sensitivity
+
+contins code for the analysis of sensitivity to the fixed fraction of infections that express symptoms. 
+
+\pA_corr_VE
+
+contains code for tha analysis of an alternative formulation in which the symptomatic fraction is reduced by vaccination [from baseline, 0.67 with VE = 0, to 0.67 * (1 - VE)]
+
+The instructions for running the code are the same as the core model (see the README.txt in the parent folder). 
+
