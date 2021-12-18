@@ -19,9 +19,7 @@ sns.set_theme()
 #f, ax = plt.subplots(figsize=(9, 6))
 #sns.heatmap(flights, annot=True, fmt="d", linewidths=.5, ax=ax)
 
-#input_dirname = "C:\\Users\\czachreson\\Desktop\\compositions_in_progress\\Quarantine_modelling\\model\\julia_version_full\\Delta_variant\\R0_x_VE_H14_tinc4p4_tf_1M\\2021_08_17\\"
-
-input_dirname = "C:\\Users\\czachreson\\Desktop\\compositions_in_progress\\Quarantine_modelling\model\\julia_version_full\\parameter_scan\\fixed_worker_count\\R0_x_VE_scan_H14_tf_1M\\2021_08_26\\"
+input_dirname = "\\R0_x_VE_scan_H14_tf_1M\\2021_08_26\\"
 
 #label = "R0xVE_scan_H14_tf400k"
 #label = "R0xVE_scan_H14_tf_1M"
