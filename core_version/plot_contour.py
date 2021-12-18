@@ -6,6 +6,7 @@ Created on Thu Jul  1 15:22:41 2021
 """
 
 import matplotlib.pyplot as plt
+import os
 import numpy as np
 import seaborn as sns
 import pandas as pd
@@ -19,7 +20,8 @@ sns.set_theme()
 #f, ax = plt.subplots(figsize=(9, 6))
 #sns.heatmap(flights, annot=True, fmt="d", linewidths=.5, ax=ax)
 
-input_dirname = "\\R0_x_VE_scan_H14_tf_1M\\2021_08_26\\"
+wd = os.getcwd()
+input_dirname = wd + "\\R0_x_VE_scan_H14_tf_1M\\2021_08_26\\"
 
 #label = "R0xVE_scan_H14_tf400k"
 #label = "R0xVE_scan_H14_tf_1M"
